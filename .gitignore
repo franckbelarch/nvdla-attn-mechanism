@@ -1,0 +1,55 @@
+# Compiled files
+*.o
+*.so
+*.a
+*.elf
+*.out
+
+# Build directories
+build/
+obj_dir/
+logs/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Simulation output
+*.vcd
+*.fst
+*.fsdb
+*.log
+*.trace
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

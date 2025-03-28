@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Chart background -->
+  <rect x="50" y="20" width="500" height="360" fill="#f9f9f9" stroke="#000" stroke-width="1"/>
+  <text x="300" y="50" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Area Distribution</text>
+  
+  <!-- Matrix Multiplication (58%) -->
+  <rect x="100" y="90" width="400" height="120" fill="#1f77b4" stroke="#000" stroke-width="1"/>
+  <text x="300" y="150" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Matrix Multiplication (58%)</text>
+  
+  <!-- Input/Output Buffers (22%) -->
+  <rect x="100" y="210" width="152" height="60" fill="#ff7f0e" stroke="#000" stroke-width="1"/>
+  <text x="176" y="240" font-family="Arial" font-size="14" text-anchor="middle">Input/Output Buffers (22%)</text>
+  
+  <!-- Softmax Unit (15%) -->
+  <rect x="100" y="270" width="104" height="40" fill="#2ca02c" stroke="#000" stroke-width="1"/>
+  <text x="152" y="295" font-family="Arial" font-size="14" text-anchor="middle">Softmax Unit (15%)</text>
+  
+  <!-- Control Logic (5%) -->
+  <rect x="100" y="310" width="35" height="30" fill="#d62728" stroke="#000" stroke-width="1"/>
+  <text x="118" y="330" font-family="Arial" font-size="12" text-anchor="middle">Control</text>
+  <text x="118" y="342" font-family="Arial" font-size="12" text-anchor="middle">Logic (5%)</text>
+</svg>

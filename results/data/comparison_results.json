@@ -1,0 +1,23 @@
+{
+  "cpu": [
+    {
+      "throughput_gops": 0.2169144513086033,
+      "latency_us": 10045.766830444336,
+      "power_mw": 15000
+    }
+  ],
+  "gpu": [
+    {
+      "throughput_gops": 4.338289026172066,
+      "latency_us": 502.2883415222168,
+      "power_mw": 250000
+    }
+  ],
+  "nvdla": [
+    {
+      "throughput_gops": 4.062465102626501,
+      "latency_us": 163430.0,
+      "power_mw": 31
+    }
+  ]
+}

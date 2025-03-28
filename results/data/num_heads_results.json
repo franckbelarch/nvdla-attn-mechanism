@@ -1,0 +1,56 @@
+{
+  "throughput": [
+    {
+      "num_heads": 1,
+      "throughput_gops": 3.422859432842748
+    },
+    {
+      "num_heads": 2,
+      "throughput_gops": 3.968093678782301
+    },
+    {
+      "num_heads": 4,
+      "throughput_gops": 3.9263974229632224
+    },
+    {
+      "num_heads": 8,
+      "throughput_gops": 4.003523086628571
+    }
+  ],
+  "latency": [
+    {
+      "num_heads": 1,
+      "latency_us": 40857.0
+    },
+    {
+      "num_heads": 2,
+      "latency_us": 40857.0
+    },
+    {
+      "num_heads": 4,
+      "latency_us": 40857.0
+    },
+    {
+      "num_heads": 8,
+      "latency_us": 40857.0
+    }
+  ],
+  "accuracy": [
+    {
+      "num_heads": 1,
+      "mean_relative_error": 2.2066789503509994
+    },
+    {
+      "num_heads": 2,
+      "mean_relative_error": 2.431719936625351
+    },
+    {
+      "num_heads": 4,
+      "mean_relative_error": 4.595477125546285
+    },
+    {
+      "num_heads": 8,
+      "mean_relative_error": 3.246783686319889
+    }
+  ]
+}

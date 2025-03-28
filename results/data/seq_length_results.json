@@ -1,0 +1,56 @@
+{
+  "throughput": [
+    {
+      "seq_length": 16,
+      "throughput_gops": 0.18340747124607332
+    },
+    {
+      "seq_length": 32,
+      "throughput_gops": 2.565186417061785
+    },
+    {
+      "seq_length": 64,
+      "throughput_gops": 3.8754933941434744
+    },
+    {
+      "seq_length": 128,
+      "throughput_gops": 4.374581323925853
+    }
+  ],
+  "latency": [
+    {
+      "seq_length": 16,
+      "latency_us": 2553.0
+    },
+    {
+      "seq_length": 32,
+      "latency_us": 10214.0
+    },
+    {
+      "seq_length": 64,
+      "latency_us": 40857.0
+    },
+    {
+      "seq_length": 128,
+      "latency_us": 163430.0
+    }
+  ],
+  "accuracy": [
+    {
+      "seq_length": 16,
+      "mean_relative_error": 1.6487543363124466
+    },
+    {
+      "seq_length": 32,
+      "mean_relative_error": 2.4002458127253856
+    },
+    {
+      "seq_length": 64,
+      "mean_relative_error": 2.315816618033618
+    },
+    {
+      "seq_length": 128,
+      "mean_relative_error": 2.7171624975464597
+    }
+  ]
+}

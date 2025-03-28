@@ -1,0 +1,32 @@
+{
+  "throughput": [
+    {
+      "head_dim": 32,
+      "throughput_gops": 2.5303683294263566
+    },
+    {
+      "head_dim": 64,
+      "throughput_gops": 3.936739119424056
+    }
+  ],
+  "latency": [
+    {
+      "head_dim": 32,
+      "latency_us": 21196.0
+    },
+    {
+      "head_dim": 64,
+      "latency_us": 40857.0
+    }
+  ],
+  "accuracy": [
+    {
+      "head_dim": 32,
+      "mean_relative_error": 2.9929719451769445
+    },
+    {
+      "head_dim": 64,
+      "mean_relative_error": 2.781772557823152
+    }
+  ]
+}

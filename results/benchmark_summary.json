@@ -1,0 +1,169 @@
+{
+  "sequence_length": {
+    "throughput": [
+      {
+        "seq_length": 16,
+        "throughput_gops": 0.18340747124607332
+      },
+      {
+        "seq_length": 32,
+        "throughput_gops": 2.565186417061785
+      },
+      {
+        "seq_length": 64,
+        "throughput_gops": 3.8754933941434744
+      },
+      {
+        "seq_length": 128,
+        "throughput_gops": 4.374581323925853
+      }
+    ],
+    "latency": [
+      {
+        "seq_length": 16,
+        "latency_us": 2553.0
+      },
+      {
+        "seq_length": 32,
+        "latency_us": 10214.0
+      },
+      {
+        "seq_length": 64,
+        "latency_us": 40857.0
+      },
+      {
+        "seq_length": 128,
+        "latency_us": 163430.0
+      }
+    ],
+    "accuracy": [
+      {
+        "seq_length": 16,
+        "mean_relative_error": 1.6487543363124466
+      },
+      {
+        "seq_length": 32,
+        "mean_relative_error": 2.4002458127253856
+      },
+      {
+        "seq_length": 64,
+        "mean_relative_error": 2.315816618033618
+      },
+      {
+        "seq_length": 128,
+        "mean_relative_error": 2.7171624975464597
+      }
+    ]
+  },
+  "head_dimension": {
+    "throughput": [
+      {
+        "head_dim": 32,
+        "throughput_gops": 2.5303683294263566
+      },
+      {
+        "head_dim": 64,
+        "throughput_gops": 3.936739119424056
+      }
+    ],
+    "latency": [
+      {
+        "head_dim": 32,
+        "latency_us": 21196.0
+      },
+      {
+        "head_dim": 64,
+        "latency_us": 40857.0
+      }
+    ],
+    "accuracy": [
+      {
+        "head_dim": 32,
+        "mean_relative_error": 2.9929719451769445
+      },
+      {
+        "head_dim": 64,
+        "mean_relative_error": 2.781772557823152
+      }
+    ]
+  },
+  "num_heads": {
+    "throughput": [
+      {
+        "num_heads": 1,
+        "throughput_gops": 3.422859432842748
+      },
+      {
+        "num_heads": 2,
+        "throughput_gops": 3.968093678782301
+      },
+      {
+        "num_heads": 4,
+        "throughput_gops": 3.9263974229632224
+      },
+      {
+        "num_heads": 8,
+        "throughput_gops": 4.003523086628571
+      }
+    ],
+    "latency": [
+      {
+        "num_heads": 1,
+        "latency_us": 40857.0
+      },
+      {
+        "num_heads": 2,
+        "latency_us": 40857.0
+      },
+      {
+        "num_heads": 4,
+        "latency_us": 40857.0
+      },
+      {
+        "num_heads": 8,
+        "latency_us": 40857.0
+      }
+    ],
+    "accuracy": [
+      {
+        "num_heads": 1,
+        "mean_relative_error": 2.2066789503509994
+      },
+      {
+        "num_heads": 2,
+        "mean_relative_error": 2.431719936625351
+      },
+      {
+        "num_heads": 4,
+        "mean_relative_error": 4.595477125546285
+      },
+      {
+        "num_heads": 8,
+        "mean_relative_error": 3.246783686319889
+      }
+    ]
+  },
+  "platform_comparison": {
+    "cpu": [
+      {
+        "throughput_gops": 0.2169144513086033,
+        "latency_us": 10045.766830444336,
+        "power_mw": 15000
+      }
+    ],
+    "gpu": [
+      {
+        "throughput_gops": 4.338289026172066,
+        "latency_us": 502.2883415222168,
+        "power_mw": 250000
+      }
+    ],
+    "nvdla": [
+      {
+        "throughput_gops": 4.062465102626501,
+        "latency_us": 163430.0,
+        "power_mw": 31
+      }
+    ]
+  }
+}

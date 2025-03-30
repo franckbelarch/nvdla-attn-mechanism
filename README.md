@@ -15,6 +15,7 @@ This project implements an attention mechanism for NVDLA (NVIDIA Deep Learning A
 - [Performance Results](#performance-results)
 - [Integration with NVDLA](#integration-with-nvdla)
 - [Documentation](#documentation)
+- [License](#license)
 
 ## Overview
 
@@ -239,7 +240,7 @@ Comprehensive documentation is provided:
 - `docs/integration_guide.md`: Guide for integrating with NVDLA
 - `docs/validation_guide.md`: Procedures for validating the implementation
 - `include/nvdla_attn_interface.h`: Software interface documentation
-
+- [`diagrams/diagrams.md`](diagrams/diagrams.md): Collection of all diagrams with descriptions
 
 ### Key Demonstration Files
 
@@ -258,3 +259,10 @@ Comprehensive documentation is provided:
 - NVIDIA for the open-source NVDLA implementation
 - The transformer architecture research community
 - Open-source tools used in this project
+
+## License
+
+The contents of this repository are available for **viewing purposes**. If you'd like to download, reuse, modify, or redistribute any part of the code or diagrams, please reach out for permission.
+
+For inquiries or to discuss potential contributions, please contact me at francknbkg@gmail.com.
+Thank you
